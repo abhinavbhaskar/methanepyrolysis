@@ -7,7 +7,7 @@ The first step is to download import the relevant libraries required for the mod
 
 **Assumptions:** 
 1. Actual amount of hydrogen entering the shaft furnace is higher than the stoichiometric value.The ration between the actual value and the stoichiometric value is defined as lambda_$h_2$ in these calculations.   
-2. Hydrogen production of 200 kili tonne per annum has been considered.  
+2. Hydrogen production of 200 killo tonne per annum has been considered.  
 3. Plant is operational 95% of the time in an year operating_hours
 4. Reactor temperature varies from 1000-1200 C.
 5. Two different heat sources have been considered for heating the bubble column reactor (gas fired heater or electric heating).
