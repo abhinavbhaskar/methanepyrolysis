@@ -1,19 +1,14 @@
 ## Methane pyrolysis
 ### Techno-economic modelling of methane pyrolysis based hydrogen direct reduction of iron ore
 The first step is to download import the relevant libraries required for the model.This includes the pandas, numpy and matplotlib libraries. An easier way to get all these libraries in one place is to download and install the Anaconda distribution, which is widely used for scientific computations. The size of the figures and the dpi for the figures is pre-defined to get publication quality graphs. 
-_import pandas as pd\
-import numpy as np\
-import matplotlib.pyplot as plt\
-%matplotlib inline\
-plt.rcParams['savefig.dpi'] = 1200\
-plt.rcParams["figure.figsize"] = [10,10]_
+
 
  
 
 **Assumptions:** 
-1. lambda_h2=1.47 ( Actual amount of hydrogen entering the shaft furnace is higher than the stoichiometric value.The ration between the actual value and the stoichiometric value is defined as lambda_$h_2$ in these calculations).   
-2. h2_prod_yr=200000000 #in kg per year 
-3. Plant is operational 95% of the time in an year operating_hours=365*24*0.95 
+1. Actual amount of hydrogen entering the shaft furnace is higher than the stoichiometric value.The ration between the actual value and the stoichiometric value is defined as lambda_$h_2$ in these calculations.   
+2. Hydrogen production of 200 kili tonne per annum has been considered.  
+3. Plant is operational 95% of the time in an year operating_hours
 4. Reactor temperature varies from 1000-1200 C.
 5. Two different heat sources have been considered for heating the bubble column reactor (gas fired heater or electric heating).
 6. Methane conversion varies from 0.65 to 0.90
